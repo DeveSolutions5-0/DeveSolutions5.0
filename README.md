@@ -7,4 +7,4 @@ Integrantes:
 2 - MARIA VICTORIA OSPINA GARCIA - vicky.ospina@gmail.com
 3 - SAMUEL MANTILLA VELASQUEZ - samave02@hotmail.com
 4 - SERGIO ORTEGA MONTES -
-5 - HUGO PRADA MILLAN -
+5 - HUGO PRADA MILLAN - miprago@hotmail.com
