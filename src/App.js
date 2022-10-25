@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          DEVE SOLUTION MINTIC 2022
         </a>
       </header>
     </div>
