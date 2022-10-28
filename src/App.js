@@ -1,11 +1,12 @@
-import './App.css';
-import AdminApp from './components/AdminApp';
-import './styles/AdminApp.css'
+import AdminApp from './components/AdminApp'
+import './styles/styles.css'
 
 
 function App(){
   return (
-    <AdminApp/>
+   
+  <AdminApp/>
+
 
   );
 }

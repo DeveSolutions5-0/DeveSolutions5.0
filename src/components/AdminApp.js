@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 export default function AdminApp() {
   const [contador, setContador] = useState(0);
 
@@ -8,19 +7,25 @@ export default function AdminApp() {
   const restar = () => setContador(contador - 1);
 
   return (
-    <div class="contenedor">
     <>
-      <h2>useState - HOOKS</h2>
-     
-      <nav>
-        <button class="button" onClick={sumar}>Sumar</button>
-        <button class="button" onClick={restar}>Restar</button>
-      </nav>
-      
-      <h3>{contador}</h3>
+      <>
+      <label>Hola</label>
+
+
+      </>
+
+      <form>
+        <h1>useState - HOOKS</h1>
+
+        <button type="submit" onClick={sumar}>
+          Sumar
+        </button>
+        <button type="submit" onClick={restar}>
+          Restar
+        </button>
+
+        <h1>{contador}</h1>
+      </form>
     </>
-    
-    </div>
   );
-  
 }
