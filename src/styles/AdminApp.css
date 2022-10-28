@@ -1,5 +1,10 @@
-.fm {
-    margin: 15px;
-    padding: 10;
-    border: 1px solid orange;
+.error {
+    background-color: red;
+  }
+.error {
+    color: red;
 }
+
+.Button {
+    padding: 10px;
+  }
