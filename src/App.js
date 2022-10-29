@@ -1,14 +1,20 @@
 import { Fragment } from "react";
-import ObjetosApp from "./componentes/objetosApp";
+import IngresarProducto from "./components/IngresarProducto"
+
+
 
 
 
 function App() {
   return (
+    <div className="container">
     <Fragment>
-    <ObjetosApp/>
+    
+    <IngresarProducto/>
+    
   
     </Fragment>
+    </div>
   );
 }
 

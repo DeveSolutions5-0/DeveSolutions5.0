@@ -13,7 +13,7 @@ body {
   
   h1 {
     font-weight: 100;
-    color: white;
+    color: rgb(57, 0, 162);
     text-align: center;
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(79, 98, 148);
@@ -132,6 +132,9 @@ body {
   }
 
   .container {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
   }
   
