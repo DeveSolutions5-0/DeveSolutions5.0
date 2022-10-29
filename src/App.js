@@ -1,14 +1,15 @@
-import AdminApp from './components/AdminApp'
-import './styles/styles.css'
+import { Fragment } from "react";
+import ObjetosApp from "./componentes/objetosApp";
 
 
-function App(){
+
+function App() {
   return (
-   
-  <AdminApp/>
-
-
+    <Fragment>
+    <ObjetosApp/>
+  
+    </Fragment>
   );
 }
- 
+
 export default App;
