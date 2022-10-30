@@ -1,41 +1,20 @@
 import "../styles/menu.css"
+import image from "./recursos/logoa.png";
 
 
 export default function MenuApp() {
-  const navSlide = () => {
-    const burger = document.querySelector(".burger");
-    const nav = document.querySelector(".nav-links");
-    const navLinks = document.querySelectorAll(".nav-links a");
-
-    burger.addEventListener("click", () => {
-      nav.classList.toggle("nav-active");
-
-      navLinks.forEach((link, index) => {
-        if (link.style.animation) {
-          link.style.animation = "";
-        } else {
-          link.style.animation = `navLinkFade 0.5s ease forwards ${
-            index / 7 + 0.5
-          }s `;
-        }
-      });
-      burger.classList.toggle("toggle");
-    });
-    //
-  };
-
-  navSlide();
-
+ 
   return (
+
     <nav>
       <div class="logo">
-        <h4>Navbar</h4>
+        <img src={image} alt='logo' className="logo"/>
       </div>
       <ul class="nav-links">
-        <a href="http://localhost:3000/">Home</a>
-        <a href="http://localhost:3000/">About</a>
-        <a href="http://localhost:3000/">Contact</a>
-        <a href="http://localhost:3000/">Blog</a>
+        <a href="https://www.google.com/?hl=es">Inicio</a>
+        <a href="https://www.google.com/?hl=es">Autos</a>
+        <a href="https://www.google.com/?hl=es">Ventas</a>
+        <a href="https://www.google.com/?hl=es">Carrito</a>
       </ul>
       <div class="burger">
         <div class="line1"></div>

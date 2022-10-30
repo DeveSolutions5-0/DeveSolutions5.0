@@ -1,135 +1,146 @@
-.objContenedor{
-    width: 500px;
-    margin: 100px;
-    display: flex;
-    flex-direction: column;
-    background-color:rgb(255, 255, 255);
-
+.objContenedor {
+  width: 500px;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
 }
-.objTitulos{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    gap: 100px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.objTitulos {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 100px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.objFormulario{
-    display: flex;
-    gap: 5px;
+.objFormulario {
+  display: flex;
+  gap: 5px;
 }
-.objInput{
-    flex-grow: 1;
-    width: 100%;
-    padding: 10px;
-    border-radius: 6px;
-    border: solid 1px rgb(2, 7, 1);
+.objInput {
+  flex-grow: 1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: solid 1px rgb(2, 7, 1);
 }
-.objBoton{
-    border: none;
-    border-radius: 6px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    padding: 10px 20px;
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+.objBoton {
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.objBoton:hover{
-    background-color: #0ced0c;
-    color: rgb(255, 255, 255);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.cuerpoContenedor{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    margin-top: 10px;
-    background-color: white;    
-}
-.ObjetosInfo{
-    padding: 10px;
-    background-color: white; 
-    display: flex;
-    align-items: center; 
-    gap: 5px;  
-}
-.objEtiqueta{
-    flex: 1;
-    font-size: 20px;
-}
-.botonActualizar{
-    border: none;
-    border-radius: 6px;
-    background-color: rgb(69, 6, 227);
-    color: white;
-    padding: 10px 20px;
-    gap: 10px;
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+.objBoton:hover {
+  background-color: #0ced0c;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.botonActualizar:hover{
-    background-color: #94ecfb;
-    color: rgb(3, 5, 107);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.cuerpoContenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  background-color: white;
+}
+.ObjetosInfo {
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.objEtiqueta {
+  flex: 1;
+  font-size: 20px;
+}
+.botonActualizar {
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(69, 6, 227);
+  color: white;
+  padding: 10px 20px;
+  gap: 10px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.botonEliminar{
-    border: none;
-    color: white;
-    border-radius: 6px;
-    background-color: rgb(255, 0, 0);
-    padding: 10px 20px;
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+.botonActualizar:hover {
+  background-color: #94ecfb;
+  color: rgb(3, 5, 107);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.botonEliminar:hover{
-    background-color: #f3d40e;
-    color: white;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.botonEliminar {
+  border: none;
+  color: white;
+  border-radius: 6px;
+  background-color: rgb(255, 0, 0);
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.objObjetos{
-    padding: 1px;
-    background-color: white;
-    border: solid 1px;
-    border-radius: 6px;
-}
-.objActualizarForm{
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-.objBotonEditar{
-    border: none;
-    color: white;
-    border-radius: 6px;
-    background-color: rgb(30, 0, 255);
-    padding: 10px 20px;
-    transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+.botonEliminar:hover {
+  background-color: #f3d40e;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.objBotonEditar:hover{
-    background-color: #f3d40e;
-    color: rgb(7, 7, 7);
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+.objObjetos {
+  padding: 1px;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 6px;
+}
+.objActualizarForm {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.objBotonEditar {
+  border: none;
+  color: white;
+  border-radius: 6px;
+  background-color: rgb(30, 0, 255);
+  padding: 10px 20px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-h1 {
-    font-weight: 100;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(0, 55, 255);
-    text-align: center;
-    padding-bottom: 10px;
-    border-bottom: 2px solid rgb(0, 26, 255);
-  }
+.objBotonEditar:hover {
+  background-color: #f3d40e;
+  color: rgb(7, 7, 7);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-  }
+h3 {
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(0, 55, 255);
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 26, 255);
   
+}
+
+.container {
+  display: flex;
+  margin: -100px;
+
+  justify-content: center;
+}
+
+.logob {
+  width: 100%;
+  align-self: initial;
+
+}

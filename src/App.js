@@ -1,20 +1,18 @@
 import { Fragment } from "react";
-import IngresarProducto from "./components/IngresarProducto"
-import menuApp from "./components/MenuApp";
-
-
-
+import IngresarProducto from "./components/IngresarProducto";
+import MenuApp from "./components/MenuApp";
 
 function App() {
   return (
-    <div className="container">
-    <Fragment>
-
-    <menuApp/>
-    <IngresarProducto/>
-    
-  
-    </Fragment>
+    <div>
+      <Fragment>
+        <MenuApp />
+      </Fragment>
+      <Fragment>
+        <div className="container">
+          <IngresarProducto />
+        </div>
+      </Fragment>
     </div>
   );
 }
