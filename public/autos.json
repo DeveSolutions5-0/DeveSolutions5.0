@@ -26,5 +26,12 @@
         "stock": "105",
         "precio": "25.800.000.00",
         "img": "toyota.png"
+    },
+    {
+        "id": "5",
+        "marca": "Toyota Yaris Sport",
+        "stock": "105",
+        "precio": "25.800.000.00",
+        "img": "toyota.png"
     }
 ]

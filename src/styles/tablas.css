@@ -1,0 +1,18 @@
+.demTable {
+    border:1px dotted #b3adad;
+    border-collapse:collapse;
+    padding:10px;
+}
+.demTable th {
+    border:1px dotted #b3adad;
+    padding:10px;
+    background: #000dc2;
+    color: #ffffff;
+}
+.demTable td {
+    border:1px dotted #b3adad;
+    text-align:center;
+    padding:10px;
+    background: #ffffff;
+    color: #000000;
+}

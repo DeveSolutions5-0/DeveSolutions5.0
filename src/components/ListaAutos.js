@@ -1,4 +1,4 @@
-import '../styles/objetos.css';
+import '../styles/tablas.css';
 import React, { useEffect, useState } from "react"
 
 function useAutos() {
@@ -28,7 +28,7 @@ export default function ListaAutos() {
 	        
 	      <div >
 	        <div>
-	          <table>
+	          <table className='demTable'>
 	            <thead>
 	              <tr>
 	                <th scope="col">ID</th>
