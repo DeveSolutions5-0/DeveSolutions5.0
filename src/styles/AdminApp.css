@@ -1,5 +1,28 @@
-.fm {
-    margin: 15px;
-    padding: 10;
-    border: 1px solid orange;
+.error {
+    background-color: red;
+  }
+.error {
+    color: red;
 }
+
+.button {
+    padding: 10px;
+    display:flexbox;
+    position: relative;
+  }
+
+  .contenedor {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid rgb(83, 16, 159);
+    font-size: 10px;
+    font-family: "Open Sans";
+    margin: 5em;
+    
+   
+    
+   
+    
+  }

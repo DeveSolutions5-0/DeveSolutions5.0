@@ -1,22 +1,20 @@
-import './App.css';
-import React, { Component } from 'react';
+import { Fragment } from "react";
+import IngresarProducto from "./components/IngresarProducto";
+import MenuApp from "./components/MenuApp";
 
-import AdminApp from './components/AdminApp';
-import './styles/AdminApp.css'
-
-
-class App extends Component {
-  render() { 
-    return (
-      <div className='App'>
-   
-      <AdminApp/>
-      </div>
-      
-
-
-    );
-  }
+function App() {
+  return (
+    <div>
+      <Fragment>
+        <MenuApp />
+      </Fragment>
+      <Fragment>
+        <div className="container">
+          <IngresarProducto />
+        </div>
+      </Fragment>
+    </div>
+  );
 }
- 
+
 export default App;
