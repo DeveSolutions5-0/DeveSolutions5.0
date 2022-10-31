@@ -1,5 +1,5 @@
 import "../styles/menu.css"
-import image from "./recursos/logoa.png";
+
 
 
 export default function MenuApp() {
@@ -8,7 +8,7 @@ export default function MenuApp() {
 
     <nav>
       <div class="logo">
-        <img src={image} alt='logo' className="logo"/>
+        <img src="logoa.png" alt='logo' className="logo"/>
       </div>
       <ul class="nav-links">
         <a href="https://www.google.com/?hl=es">Inicio</a>
