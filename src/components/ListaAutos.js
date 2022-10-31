@@ -1,3 +1,4 @@
+import '../styles/objetos.css';
 import React, { useEffect, useState } from "react"
 
 function useAutos() {
@@ -23,12 +24,10 @@ export default function ListaAutos() {
 
 		<div align="center">
       
-	      <h4>Lista de Autos</h4>
+	      <h3>LISTA AUTOS DE ARCHIVO JSON</h3>
 	        
 	      <div >
-
 	        <div>
-
 	          <table>
 	            <thead>
 	              <tr>
@@ -48,7 +47,7 @@ export default function ListaAutos() {
 	                <td>{item.marca}</td>
 	                <td>{item.stock}</td>
 	                <td>{item.precio}</td>
-	                <td><img src={`${process.env.PUBLIC_URL}/imagenes/${item.img}`} alt={item.nombre} width="30px" className="img-fluid"/></td>
+	                <td><img src={`${process.env.PUBLIC_URL}/imagenes/${item.img}`} alt={item.marca} width="30px" /></td>
 	              </tr>
 
 	            ))}
