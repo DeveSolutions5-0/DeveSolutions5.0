@@ -1,20 +1,15 @@
-import "../styles/menu.css"
-import image from "./recursos/logoa.png";
-
+import "../styles/menu.css";
+import { Link } from "react-router-dom";
 
 export default function MenuApp() {
- 
   return (
-
     <nav>
       <div class="logo">
-        <img src={image} alt='logo' className="logo"/>
+        <img src="logoa.png" alt="logo" className="logo" />
       </div>
       <ul class="nav-links">
-        <a href="https://www.google.com/?hl=es">Inicio</a>
-        <a href="https://www.google.com/?hl=es">Autos</a>
-        <a href="https://www.google.com/?hl=es">Ventas</a>
-        <a href="https://www.google.com/?hl=es">Carrito</a>
+        <Link to="/">Autos</Link>
+        <Link to="/ListaAutos">Ventas</Link>
       </ul>
       <div class="burger">
         <div class="line1"></div>
@@ -23,4 +18,4 @@ export default function MenuApp() {
       </div>
     </nav>
   );
-};
+}

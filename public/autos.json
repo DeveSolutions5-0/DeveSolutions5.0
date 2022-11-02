@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "marca": "Chevrolet Spark GT",
+        "stock": "35",
+        "precio": "35.000.000.00",
+        "img": "spark.png"
+    },
+    {
+        "id": "2",
+        "marca": "Renault Kwid 2022",
+        "stock": "65",
+        "precio": "49.800.000.00",
+        "img": "renault.png"
+    },
+    {
+        "id": "3",
+        "marca": "Ford Ka FreeStyle",
+        "stock": "15",
+        "precio": "56.480.000.00",
+        "img": "ford.png"
+    },
+    {
+        "id": "4",
+        "marca": "Toyota Yaris Sport",
+        "stock": "105",
+        "precio": "25.800.000.00",
+        "img": "toyota.png"
+    },
+    {
+        "id": "5",
+        "marca": "Toyota Yaris Sport",
+        "stock": "105",
+        "precio": "25.800.000.00",
+        "img": "toyota.png"
+    }
+]

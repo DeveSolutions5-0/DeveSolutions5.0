@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Objetos from "./objetos";
 import '../styles/objetos.css';
-import image from "./recursos/logob.png";
 
 
 export default function ObjetosApp() {
@@ -78,7 +77,7 @@ export default function ObjetosApp() {
 //todo lo que sea className es CSS
     return (
         <div className='objContenedor'>
-        <img src={image} alt='logo' className="logob"/>
+        <img src="logob.png" alt="logo"/>
         <h3>AUTOS</h3>
         <div className='objTitulos'>
             <span>Marca Vehículo</span>
