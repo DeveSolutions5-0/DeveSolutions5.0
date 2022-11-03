@@ -10,6 +10,7 @@ export default function MenuApp() {
       <ul class="nav-links">
         <Link to="/">Autos</Link>
         <Link to="/ListaAutos">Ventas</Link>
+        <Link to="/CarritoCompras">Carrito</Link>
       </ul>
       <div class="burger">
         <div class="line1"></div>

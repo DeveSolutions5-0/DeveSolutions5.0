@@ -132,6 +132,16 @@ h3 {
   
 }
 
+h1 {
+  font-weight: 100;
+  font-family:fantasy;
+  color: rgb(255, 204, 0);
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(0, 26, 255);
+  
+}
+
 .container {
   display: flex;
   justify-content: center;
